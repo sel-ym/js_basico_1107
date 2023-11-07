@@ -1,0 +1,28 @@
+
+// Un bouleano es una expresión q solo puede
+// ser (verdadero) o (falso)
+
+let verdadero = true
+console.log(typeof verdadero)
+let falso = false
+
+// Operadores de comparación
+console.log(1<2);
+console.log(1<=3);
+console.log(3>=3);
+console.log(1>=3);
+console.log(3<3)
+console.log(3>3)
+console.log(3 == 3);
+// para comparar ==
+console.log(3 == "3");
+console.log(3 === "3");
+// igualdad estrica ===
+console.log(3!=1);
+// != diferentes
+
+// Operadores lógicos (funcionan con texto)
+let llueve = true
+if (llueve) {
+console.log("necesito un paraguas");
+}
